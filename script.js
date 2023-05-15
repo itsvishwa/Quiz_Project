@@ -5,7 +5,6 @@ let answers;
 let selectedTag;
 let score = 0;
 let count;
-let btn;
 
 function nextQuestion(){
     if(index == count){
