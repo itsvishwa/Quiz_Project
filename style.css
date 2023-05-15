@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    background-color: #4C4C6D;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    background-color: #E6FFFD;
+    height: 450px;
+    width: 500px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.283);
+}
+.question-box{
+    background-color: #1B9C85;
+    color: white;
+    font-weight: 500;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#question{
+    margin: 0px 40px;
+    font-size: 16px;
+}
+.answer-box{
+    background-color: #ECECEC;
+    height: 330px;
+    display: flex;
+    align-items: center;
+}
+#answer-result-box{
+    display: none;
+    background-color: #8a03e3;
+    height: 330px;
+    width: 500px;
+    position: absolute;
+}
+#answer-result-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+#answer-result-desc{
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+    height:200px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+}
+.answer-box label{
+    color: #1E1E1E;
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.answer-box input{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    border: 1px solid #1E1E1E;
+    border-radius: 50%;
+}
+.answer-box input:focus {
+    border-style: none;
+    background-color: #36717E;
+    outline: max(2px, 0.15em) solid #36717E;
+    outline-offset: max(2px, 0.15em);
+  }
+
+.answer-div{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+.continue-box{
+    background-color: #1B9C85;
+    height: 50px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+}
+#continue-btn{
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+#continue-btn:hover{
+    background-color: #147261;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+{
+    "questions": [
+      {
+        "question": "What is the name of the meme featuring a white cat with a confused expression?",
+        "answers": [
+          {"answer": "Grumpy Cat", "is_correct": false},
+          {"answer": "Keyboard Cat", "is_correct": false},
+          {"answer": "Nyan Cat", "is_correct": false},
+          {"answer": "Smudge Lord", "is_correct": true}
+        ]
+      },
+      {
+        "question": "What is the name of the meme featuring a dog sitting in a room on fire, saying 'This is fine'?",
+        "answers": [
+          {"answer": "Doge", "is_correct": false},
+          {"answer": "Shiba Inu", "is_correct": false},
+          {"answer": "Corgi", "is_correct": false},
+          {"answer": "This is fine dog", "is_correct": true}
+        ]
+      },
+      {
+        "question": "What is the name of the meme featuring a man walking with his girlfriend while looking at another woman?",
+        "answers": [
+          {"answer": "Jealous Boyfriend", "is_correct": false},
+          {"answer": "Disloyal Man", "is_correct": false},
+          {"answer": "Distracted Boyfriend", "is_correct": true},
+          {"answer": "Cheating Guy", "is_correct": false}
+        ]
+      },
+      {
+        "question": "What is the name of the meme featuring a baby making a fist?",
+        "answers": [
+          {"answer": "Angry Baby", "is_correct": false},
+          {"answer": "Success Kid", "is_correct": true},
+          {"answer": "Displeased Infant", "is_correct": false},
+          {"answer": "Determined Toddler", "is_correct": false}
+        ]
+      },
+      {
+        "question": "What is the name of the meme featuring a woman yelling at a cat sitting at a table?",
+        "answers": [
+          {"answer": "Crazy Cat Lady", "is_correct": false},
+          {"answer": "Grumpy Cat", "is_correct": false},
+          {"answer": "Woman Yelling at a Cat", "is_correct": true},
+          {"answer": "Annoyed Woman", "is_correct": false}
+        ]
+      },
+      {
+        "question": "What is the name of the meme featuring a man with a butterfly on his nose?",
+        "answers": [
+          {"answer": "Butterfly Boy", "is_correct": false},
+          {"answer": "Butterfly Man", "is_correct": false},
+          {"answer": "Butterfly Glasses Guy", "is_correct": true},
+          {"answer": "Butterfly Nose Dude", "is_correct": false}
+        ]
+      },
+      {
+        "question": "What is the name of the meme featuring a baby dressed in a suit and tie?",
+        "answers": [
+          {"answer": "Baby CEO", "is_correct": true},
+          {"answer": "Tiny Tycoon", "is_correct": false},
+          {"answer": "Infant Executive", "is_correct": false},
+          {"answer": "Toddler Boss", "is_correct": false}
+        ]
+      }
+    ]
+}
