@@ -85,6 +85,6 @@ document.addEventListener("DOMContentLoaded", function() {
         count = jsonData.questions.length;
         nextQuestion();
       });
-    btn = document.getElementById("continue-btn");
+    let btn = document.getElementById("continue-btn");
     btn.addEventListener("click", checkAnswer);
 });
