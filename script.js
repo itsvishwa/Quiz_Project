@@ -5,6 +5,7 @@ let answers;
 let selectedTag;
 let score = 0;
 let count;
+let btn;
 
 function nextQuestion(){
     if(index == count){
@@ -39,6 +40,11 @@ function checkAnswer(){
         nextQuestion();
         return;
     }
+    const form = document.getElementById('answer-form');
+    if (!form.answer.value) {
+        alert('Please select an answer!');
+        return;
+    }
     selectedTag = document.querySelector("input[name='answer']:checked");
     if(selectedTag.value == correctAnswer){
         showAnswerStatus(true);
@@ -46,6 +52,7 @@ function checkAnswer(){
     }else{
         showAnswerStatus(false);
     }
+    form.reset();
 }
 
 async function showAnswerStatus(isTrue){
@@ -79,6 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
         count = jsonData.questions.length;
         nextQuestion();
       });
-    let btn = document.getElementById("continue-btn");
+    btn = document.getElementById("continue-btn");
     btn.addEventListener("click", checkAnswer);
 });
