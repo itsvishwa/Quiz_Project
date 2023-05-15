@@ -16,6 +16,8 @@ section{
     width: 500px;
     border-radius: 16px;
     box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.283);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .question-box{
     background-color: #1B9C85;
@@ -111,4 +113,7 @@ section{
 #continue-btn:hover{
     background-color: #147261;
     cursor: pointer;
+}
+#continue-btn:focus{
+    background-color: #0d4c40;
 }
